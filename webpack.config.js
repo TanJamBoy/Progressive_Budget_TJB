@@ -7,7 +7,7 @@ module.exports = {
         path: `${__dirname}/public/dist`,
         filename: "bundle.js"
     },
-    mode: "development",
+    mode: "production",
     plugins: [
         new WebpackPwaManifest({
           name: 'Budget App',
